@@ -6,6 +6,7 @@ String[] lightData;
 
 
 void setup() {
+  //added new csv file contents into a 2d array with the aid of the 10.Data Lecture core notes
   size(1100, 500);
   //loads the sleep data csv file
   lightData= loadStrings("DATA DIARY SLEEP CSV.csv");
