@@ -32,7 +32,7 @@ class Clock {
   }
   //function to draw the hour hand of the clock
   void drawHourHand(int hours) {
-    //using trigonometry to creare an accurate hour hand
+    //using trigonometry to create an accurate hour hand
     float hourAngle = radians((hours)*(360/12)-90);
     float hx = x+cos(hourAngle)*(radius*0.45);
     float hy = y+sin(hourAngle)*(radius*0.45);
@@ -42,7 +42,7 @@ class Clock {
 
   //function to draw the minute hand of the clock
   void drawMinuteHand(int minutes) {
-    //using trigonometry to creare an accurate minute hand
+    //using trigonometry to create an accurate minute hand
     float minuteAngle = radians(minutes*(360/60)-90);
     float mx = x+cos(minuteAngle)*(radius*0.7);
     float my = y+sin(minuteAngle)*(radius*0.7);
